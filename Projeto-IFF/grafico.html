@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFF - Portal do Aluno</title>
+    <!-- MATERIAL CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/fiveicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/iff.png">
+                    <h2>IFF<span class="danger">luminense</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">home</span>
+                    <h3>Área Principal</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Aluno</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">pie_chart</span>
+                    <h3>Informações Gráficas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">newspaper</span>
+                    <h3>Boletim</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">book</span>
+                    <h3>Matérias</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Mensagens</h3>
+                    <span class="message-count">10</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Exercícios</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">report_gmailerrorred</span>
+                    <h3>Avisos</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">search</span>
+                    <h3>Pesquisa e Extensão</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">calendar_month</span>
+                    <h3>Eventos</h3>
+                <a href="professores.html">
+                    <span class="material-icons-sharp">people</span>
+                    <h3>Professores</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">support_agent</span>
+                    <h3>Suporte e Equipe</h3>
+                </a>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        <!-------------------- END OF ASIDE --------------->
+        <main>
+            <h1>• Informações Gráficas</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">school</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Notas</h3>
+                            <h1>• Português</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>90%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Saiba Mais</small>
+                </div>
+                <!------------ END OF SALES ------------>
+                <div class="expenses">
+                    <span class="material-icons-sharp">menu_book</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Aulas Ministradas</h3>
+                            <h1>• Português</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Saiba Mais</small>
+                </div>
+                <!------------ END OF EXPENSES ------------>
+                <div class="income">
+                    <span class="material-icons-sharp">close</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Faltas</h3>
+                            <h1>• Português</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>1%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Saiba Mais</small>
+                </div>
+                <!------------ END OF INCOME ------------>
+            </div>
+            <!------------ END OF INSIGHTS ------------>
+
+            <div class="recent-orders">
+                <h2>Meus Cursos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cursos</th>
+                            <th>Professores</th>
+                            <th>Contato</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pendência(s)</td>
+                            <td class="primary">Concluído</td>
+                        </tr>
+                    -->
+                </table>
+                <a href="#">Ver Todos</a>
+            </div>
+        </main>
+        <!------------ END OF MAIN ------------>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Daniel</b></p>
+                        <small class="text-muted">Aluno(a)</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/perfil.jpg">
+                    </div>
+                </div>
+            </div>
+            <!-- END OF TOP -->
+            <div class="recent-updates">
+                <h2>Atualizações Recentes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="images/penna.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Fábio R. Penna</b> Enviou uma mensagem no fórum em "𝗣𝗼𝗿𝘁𝘂𝗴𝘂𝗲̂𝘀".</p>
+                            <small class="text-muted">3 Horas Atrás</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="images/ubirajara.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Ubirajara V. Pereira</b> Adicionou Estática dos Corpos Rígidos em arquivo em "𝗙𝗶́𝘀𝗶𝗰𝗮".</p>
+                            <small class="text-muted">8 Horas Atrás</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="images/diego.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Diego G. Porto</b> Adicionou um novo tópico em "𝗛𝗶𝘀𝘁𝗼́𝗿𝗶𝗮".</p>
+                            <small class="text-muted">1 Dia Atrás</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------ END OF INSIGHTS ------------>
+            <div class="sales-analytics">
+                <h2>Notificações e Informações</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">notifications</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ÚLTIMAS NOTÍCIAS</h3>
+                            <small class="text-muted">IFF Itaperuna convida para Aula Magna de sua primeira turma de Engenharia Mecânica</small>
+                        </div>
+                        <h1 class="warning">•</h1>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">square_foot</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>SELEÇÕES E CURSOS</h3>
+                            <small class="text-muted">Edital de Homologação do Resultado Final do Processo de Seleção de Bolsistas para Atuação no Laboratório IF Maker Campus Macaé 2023</small>
+                        </div>
+                        <h1 class="danger">•</h1>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">business</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>INSTITUCIONAL</h3>
+                            <small class="text-muted">Nesta seção, são divulgadas informações institucionais e organizacionais do Instituto Federal de Educação, Ciência e Tecnologia Fluminense – IFF.</small>
+                        </div>
+                        <h1 class="success">•</h1>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Alterar Informações</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
